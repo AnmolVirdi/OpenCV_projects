@@ -7,7 +7,7 @@ MediaPipe Hands utilizes an ML pipeline consisting of multiple models working to
 
 
 
-### For the beginners
+### For Beginners
 
 This is a demonstration project for beginners who are new to the game.
 
