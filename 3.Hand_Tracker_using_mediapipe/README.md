@@ -4,6 +4,7 @@
 
 ## About Mediapipe Hands
 MediaPipe Hands utilizes an ML pipeline consisting of multiple models working together: A palm detection model that operates on the full image and returns an oriented hand bounding box. A hand landmark model that operates on the cropped image region defined by the palm detector and returns high-fidelity 3D hand keypoints.
+These "Hand Landmarks" are basically 21 points on the hand. In MediaPipe, they're labelled from 0-20.
 
 
 
