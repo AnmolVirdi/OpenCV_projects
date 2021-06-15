@@ -1,6 +1,6 @@
 ## Hand Tracker using MediaPipe library
 
-[video_container]{https://drive.google.com/drive/u/0/folders/1ykIS1EWp6c7RBgMmmspbeb9zcA27H73L}
+[video_container]{https://drive.google.com/file/d/1m7-FIvypHxg9_4TL2-Iq4vUGHgzJL7Tm/view?usp=sharing}
 
 ### About Mediapipe Hands
 
