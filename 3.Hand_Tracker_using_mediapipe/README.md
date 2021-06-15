@@ -1,4 +1,5 @@
 ### Hand Tracker using MediaPipe library
+<hr /> 
 <img src="Extras/demo.gif" alt="drawing" width="200"/>
 
 ### About Mediapipe Hands
