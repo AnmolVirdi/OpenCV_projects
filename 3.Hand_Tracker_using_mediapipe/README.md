@@ -1,6 +1,6 @@
 ## Hand Tracker using MediaPipe library
 
-![image](Extras/demo.gif)
+![image](Extras/demo.gif=10x10)
 
 ### About Mediapipe Hands
 
