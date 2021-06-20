@@ -31,7 +31,9 @@ while True:
     pTime=cTime
 
     #To display the frame rate
-    cv2.putText(img, str(int(fps)), (10,70), cv2.FONT_HERSHEY_PLAIN, 3, (255,255,0),3)
+    cv2.putText(img, str(int(fps)), (10,70), cv2.FONT_HERSHEY_PLAIN, 3, (255,255,255),3)
 
     cv2.imshow("Hand Detector", img)
-    cv2.waitKey(1)
+    #TO TERMINATE THE PROGRAM, PRESS Q
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+          break
