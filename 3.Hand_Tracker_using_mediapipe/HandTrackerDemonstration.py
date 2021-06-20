@@ -54,7 +54,7 @@ while True:
                 cv2.circle(img, (cx,cy), 10 , (255,0,255), cv2.FILLED)
 
             #To draw landmark lines(Connectors)
-            mpDraw.draw_landmarks(img, handLms,mpHands.HAND_CONNECTIONS, mpDraw.DrawingSpec(color=(0, 255, 255), thickness=2, circle_radius=4),mpDraw.DrawingSpec(color=(0, 0, 0), thickness=2, circle_radius=4))
+            mpDraw.draw_landmarks(img, handLms, mpHands.HAND_CONNECTIONS)
 
 
             #If you want to converge your scope to only one landmark, use conditional statement and then move further.
@@ -75,13 +75,4 @@ while True:
 
 
     cv2.imshow("Hand Tracker", img)
-
-    #TO TERMINATE THE PROGRAM, PRESS q
-    if cv2.waitKey(1) & 0xFF == ord('q'):
-          break
-
-
-
-#Note: To change the color of Landmark joining lines
-#Use this below mentioned instead of line number 57
-#mpDraw.draw_landmarks(img, handLms,mpHands.HAND_CONNECTIONS, mpDraw.DrawingSpec(color=(0, 255, 255), thickness=2, circle_radius=4),mpDraw.DrawingSpec(color=(0, 0, 0), thickness=2, circle_radius=4))
+    cv2.waitKey(1)
